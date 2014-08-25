@@ -1,7 +1,7 @@
-int ledArray[] = {
-  8, 9, 10, 11, 12};
+/*Luiz Ricardo 24/08/2014 - Piscar LED's no protoboard */
+int ledArray[] = {8, 9, 10, 11, 12};
 int count = 0;
-int timer 75;
+int timer = 75;
 
 void setup(){
   for (count=0; count<5; count ++){
